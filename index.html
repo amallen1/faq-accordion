@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -12,20 +11,16 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | FAQ accordion</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
+
   <body>
     <main>
       <div class="faq-card">
@@ -36,7 +31,20 @@
 
         <ul class="faq-content">
           <li>
-            <h2 class="faq-question">What is Frontend Mentor, and how will it help me?</h2>
+            <div class="faq-question">
+              <h2>What is Frontend Mentor, and how will it help me?</h2>
+              <img
+                src="./assets/images/icon-plus.svg"
+                class="open-btn"
+                alt="Plus icon"
+              />
+              <img
+                src="./assets/images/icon-minus.svg"
+                class="close-btn"
+                alt="Minus icon"
+              />
+            </div>
+
             <div class="faq-answer">
               <p>
                 Frontend Mentor offers realistic coding challenges to help
@@ -48,7 +56,20 @@
           </li>
 
           <li>
-            <h2 class="faq-question">Is Frontend Mentor free?</h2>
+            <div class="faq-question">
+              <h2>Is Frontend Mentor free?</h2>
+              <img
+                src="./assets/images/icon-plus.svg"
+                class="open-btn"
+                alt="Plus icon"
+              />
+              <img
+                src="./assets/images/icon-minus.svg"
+                class="close-btn"
+                alt="Minus icon"
+              />
+            </div>
+
             <div class="faq-answer">
               <p>
                 Yes, Frontend Mentor offers both free and premium coding
@@ -59,7 +80,20 @@
           </li>
 
           <li>
-            <h2 class="faq-question">Can I use Frontend Mentor projects in my portfolio?</h2>
+            <div class="faq-question">
+              <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
+              <img
+                src="./assets/images/icon-plus.svg"
+                class="open-btn"
+                alt="Plus icon"
+              />
+              <img
+                src="./assets/images/icon-minus.svg"
+                class="close-btn"
+                alt="Minus icon"
+              />
+            </div>
+
             <div class="faq-answer">
               <p>
                 Yes, you can use projects completed on Frontend Mentor in your
@@ -70,9 +104,22 @@
           </li>
 
           <li>
-            <h2 class="faq-question">
-              How can I get help if I'm stuck on a Frontend Mentor challenge?
-            </h2>
+            <div class="faq-question">
+              <h2>
+                How can I get help if I'm stuck on a challenge?
+              </h2>
+
+              <img
+                src="./assets/images/icon-plus.svg"
+                class="open-btn"
+                alt="Plus icon"
+              />
+              <img
+                src="./assets/images/icon-minus.svg"
+                class="close-btn"
+                alt="Minus icon"
+              />
+            </div>
 
             <div class="faq-answer">
               <p>
@@ -90,7 +137,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Aniya Allen</a>.
     </div>
   </body>
 </html>
